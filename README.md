@@ -1,8 +1,18 @@
-# React + Vite
+폴더 안에 여러개의 폴더가 있으면 전체가 올라가니 해당 폴더만 vscode로 열어 터미널에서 명령어로 올리자!
+깃허브 올릴 때에 git remote -로 위치를 확인하고 올리기.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- submit은 검색, onclick은 클릭!
+- <label> htmlFor ='gold'>금메달</label>
+  <input id='gold' /> 라벨에 htmlFor을 주고, input에 id를 같은걸 주면 텍스트를 눌러도 검색창으로 넘어간다.
 
-Currently, two official plugins are available:
+- e.preventDefault(); 는 자동 새로고침을 방지한다.
+ 
+css에서 cusor: pointer;을 주면 손모양으로 바뀜.(클릭할때에 해당부분이라고 알려주는 것이라 사용하면 좋다.)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+.....
+
+검색을 하고나서 검색창 부분이 비어지게 하고싶은데, 구현을 못했다ㅠㅠ
+금메달 오름차순으로 위치를 바꾸고 싶었지만, 어느쪽에 코드를 넣어야할지 몰라서 구현을 못함.
+
+
